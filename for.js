@@ -6,33 +6,33 @@
 // }
 
 // 1~10000까지
-// for (let i = 1; i <= 10000; i++) {
-//   console.log(i);
-// }
+for (let i = 1; i <= 10000; i++) {
+  console.log(i);
+}
 
 // 꺼꾸로 찍기!!!!!
 // 10000 -> 1
-// for (let i = 10000; i >= 1; i--) {
-//   console.log(i);
-// }
+for (let i = 10000; i >= 1; i--) {
+  console.log(i);
+}
 
 // 1~10000 까지
 // 1,3,5,7,9 홀수만 찍기
-// for (let i = 1; i <= 10; i++) {
-//   if (i % 2 === 1) {
-//     console.log(i);
-//   }
-// }
+for (let i = 1; i <= 10000; i++) {
+  if (i % 2 === 1) {
+    console.log(i);
+  }
+}
 
-// 10-> 1까지, 홀수
-for (let i = 10; i >= 1; i--) {
+// 10000-> 1까지, 홀수
+for (let i = 10000; i >= 1; i--) {
   if (i % 2 === 1) {
     console.log(i);
   }
 }
 
 //구구단
-for (let i = 1; )
+// for (let i = 1; )
 
 // 괄호 구분
 // 어디서부터 어디서까지가 이 부분이다 이것을 구분 {}

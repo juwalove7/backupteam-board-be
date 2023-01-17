@@ -32,8 +32,18 @@ app.get("/api/?name=abc&age=25", (req, res) => {
 //   console.log(query);
 // });
 
+// get 게시글 리스트 가져오기
+// app.get("/getposts", (req, res) => {
+//   const post = {
+//     nickname: "hohoho",
+//     content: "huhuhu",
+//   };
+
+//   res.send(post);
+// });
+
 // path params
-app.get("/:id", (req, res) => {
+app.get("/params/:id", (req, res) => {
   const param = req.params;
   console.log(param);
 });
