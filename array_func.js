@@ -291,7 +291,7 @@ const allMovies = movies.map((movie) => {
   };
 });
 
-// console.log(allMovies);
+console.log(allMovies);
 // 첫번째 반복
 // movie :
 // {
@@ -307,7 +307,7 @@ const allMovies = movies.map((movie) => {
 // username :
 // [{ id: 1, name: "Trix Hannaby", email: "thannaby2r@home.pl" }]
 
-//username[0].name
+// username[0].name
 // Trix Hannaby
 
 /* 4-1
